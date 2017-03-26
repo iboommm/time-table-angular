@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "sub_name": "Com Pro1",
+    "sub_code": 523101,
+    "sub_credit": 2,
+    "time_txt": "Tu12:00-13:00 B4101 We17:00-20:30 Lab Com 2 Fr08:00-12:00 B3213"
+  },
+  {
+    "id": 2,
+    "sub_name": "PHYSICS II",
+    "sub_code": 105102,
+    "sub_credit": 4,
+    "time_txt": "Mo10:30-12:00 B3101 Mo19:00-21:00 B3101 Tu17:00-19:00 B3101 We10:00-12:30 B3101"
+  }
+]

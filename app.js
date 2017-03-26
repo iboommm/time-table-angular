@@ -55,6 +55,11 @@ app.controller("indexController", function($http,$scope) {
         var timeCound = value.end - value.start;
         var position = value.start;
         if(value.start == $scope.min) {
+          timeCound = checkTime(value);
+          if(value.start_half) {
+            var str = "<div class='col-table-0-5'></div>"
+            $("div#table").append(str);
+          }
           var str = "<div class='col-table-"+ timeCound +"'>"+ dataFromJSON[value.sub_id].sub_name +"</div>"
           $("div#table").append(str);
           if(value.end_half) {
